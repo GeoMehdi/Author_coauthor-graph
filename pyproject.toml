@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "debugpy>=1.8.14",
     "matplotlib>=3.10.3",
     "networkx>=3.5",
     "numpy>=2.3.1",
@@ -12,6 +13,7 @@ dependencies = [
     "seaborn>=0.13.2",
     "torch>=2.7.1",
     "torch-geometric>=2.6.1",
+    "torch-geometric-temporal>=0.56.0",
     "torchaudio>=2.7.1",
     "torchvision>=0.22.1",
     "tqdm>=4.67.1",
